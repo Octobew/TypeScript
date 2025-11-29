@@ -1,0 +1,28 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+ "start": "node dist/index.js",
+ "build": "tsc",
+ "dev": "ts-node src/index.ts"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octobew/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Octobew/TypeScript/issues"
+  },
+  "homepage": "https://github.com/Octobew/TypeScript#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
